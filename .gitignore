@@ -1,0 +1,24 @@
+# Python (временный кэш)
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environments (виртуальное окружение)
+venv/
+env/
+.venv/
+
+# IDE (настройки редакторов кода)
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS (системные файлы операционных систем)
+.DS_Store
+Thumbs.db
+
+# Project specific (локальные базы данных и логи)
+*.db
+*.log
+*.sqlite3
