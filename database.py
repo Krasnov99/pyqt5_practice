@@ -1,3 +1,4 @@
+# Подключение к БД SQLite
 import sqlite3
 import os
 
