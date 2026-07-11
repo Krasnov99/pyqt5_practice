@@ -9,6 +9,10 @@ from PIL import Image
 import database
 
 class MainWindow(QMainWindow):
+   # Главное окно приложения "Календарь событий"
+   # Реализует графический интерфейс пользователя (GUI) на базе PyQt5,
+   # управляет компоновкой виджетов, валидацией полей ввода и 
+   # взаимодействует с бизнес-логикой через систему сигналов и слотов.
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Календарь событий (PyQt5 Practice)")
