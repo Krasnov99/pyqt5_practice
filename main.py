@@ -1,3 +1,4 @@
+# Инициализация главного окна
 import sys
 from PyQt5.QtWidgets import QApplication
 from ui_main import MainWindow
